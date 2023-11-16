@@ -32,8 +32,33 @@ $ npm run start:prod
 $ nest g module <module-name>
 ```
 
+* Generate Controller for Module
+
+```bash
+$ nest g controller <module-name>
+```
+
+* Generate Service for Module
+
+```bash
+$ nest g service <module-name>
+```
+
 ## Prisma
 
 ```bash
 $ npm install prisma @prisma/client
 ```
+
+To Intialize Prisma
+
+```bash
+$ npx prisma init
+```
+
+## Class Validator and Class Transformer
+
+```bash
+$ npm install class-validator class-transformer
+```
+
